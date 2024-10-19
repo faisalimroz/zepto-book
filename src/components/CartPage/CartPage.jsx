@@ -167,7 +167,7 @@ const Modal = ({ closeModal, content }) => {
         <div className="modal-overlay">
             <div className="modal-content">
                 <h2>{content}</h2>
-                <p>This is a placeholder for {content} modal content.</p>
+                <p>Your Order/Gift for {content} has been placed.</p>
                 <button className="close-button" onClick={closeModal}>Ok</button>
             </div>
         </div>
