@@ -5,6 +5,7 @@ import axios from 'axios';
 import '../BookDetail/BookDetail.css';
 import './Searchlist.css';
 import Loading from '../Loading/Loading';
+import ServiceInfo from '../ServiceInfo/ServiceInfo';
 const Searchlist = () => {
   const location = useLocation();
   const [books, setBooks] = useState([]);
@@ -73,7 +74,7 @@ const Searchlist = () => {
 
         </div>
       )}
-
+      <ServiceInfo></ServiceInfo>
     </div>
   );
 };

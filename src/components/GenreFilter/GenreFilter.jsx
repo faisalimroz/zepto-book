@@ -3,6 +3,8 @@ import axios from 'axios';
 import { useParams,Link } from 'react-router-dom';
 import './GenreFilter.css';
 import Loading from '../Loading/Loading';
+import Searchlist from '../Searchlist/Searchlist';
+import ServiceInfo from '../ServiceInfo/ServiceInfo';
 
 const GenreFilter = () => {
   const { topic } = useParams();
@@ -67,6 +69,7 @@ const GenreFilter = () => {
 
         </div>)
       }
+      <ServiceInfo></ServiceInfo>
     </div>
   );
 };

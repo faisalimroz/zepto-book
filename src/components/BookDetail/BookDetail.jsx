@@ -71,7 +71,7 @@ const BookDetail = () => {
   return (
     <div>
       <div className="container containers mx-auto p-4 flex flex-col lg:flex-row items-center justify-center">
-        <div className="shadow-lg w-full main-container lg:w-auto flex flex-col lg:flex-row gap-12 border p-4 rounded-md shadow-lg items-center justify-center">
+        <div id='main-container' className="shadow-lg w-full main-container lg:w-auto flex flex-col lg:flex-row gap-12 border p-4 rounded-md shadow-lg items-center justify-center">
           <div className="book-images flex-shrink-0 ">
             {book.formats['image/jpeg'] ? (
               <img

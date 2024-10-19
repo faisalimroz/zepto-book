@@ -27,9 +27,36 @@
   }
   .containers{
     background-color: whitesmoke;
+    width: 500px;
   }
-  .main-container{
+  #main-container {
     background-color: white;
-    height: 500px;
-    width: 1000px;
+    height: 500px; 
+    width: 1000px; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    overflow: hidden;
+}
+@media (max-width: 1024px) {
+  #main-container {
+      width: 80%;
+      height: auto; 
   }
+}
+
+@media (max-width: 768px) {
+  #main-container {
+      width: 90%; 
+      height: auto; 
+      flex-direction: column; 
+  }
+}
+
+@media (max-width: 480px) {
+  #main-container {
+      width: 100%; /* Full width for very small screens */
+      height: auto;
+  }
+}
+
