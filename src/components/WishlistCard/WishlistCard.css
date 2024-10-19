@@ -1,0 +1,63 @@
+.wishlist-card {
+    display: flex;
+    justify-content: center; /* Center the card horizontally */
+    align-items: center;
+    border-radius: 10px;
+    background-color: #f9f9f9; /* Light background color */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+    padding: 20px; /* Increased padding for better spacing */
+    margin-bottom: 20px;
+    height: 200px; /* Adjusted height */
+}
+
+.card-contents {
+    display: flex;
+    width: 100%; /* Use full width of card */
+    justify-content: space-between;
+}
+
+.card-images img {
+    width: 100px; /* Fixed width for image */
+    height: 100px; /* Fixed height for image */
+    border-radius: 5px;
+}
+
+.card-details {
+    flex-grow: 1;
+    padding-left: 15px;
+}
+
+.card-details h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.authors {
+    font-size: 14px;
+    color: gray;
+    margin-top: 5px;
+}
+
+.ratings {
+    font-size: 14px;
+    color: #888;
+}
+
+.add-to-cart {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.delete-icon {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #ff4d4d;
+    font-size: 20px;
+}
